@@ -1,0 +1,19 @@
+# Data and models (too large for git)
+data/raw/*.zip
+data/raw/**/*.jpg
+data/raw/**/*.png
+data/processed/
+models/*.pth
+models/*.onnx
+
+# Python cache
+__pycache__/
+*.pyc
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

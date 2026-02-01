@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: project1_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: df_guard
+      POSTGRES_PASSWORD: local_dev_only_change_in_prod
+      POSTGRES_DB: deepfake_analysis
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - project1_network
+
+  redis:
+    image: redis:7-alpine
+    container_name: project1_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    networks:
+      - project1_network
+    command: redis-server --appendonly yes
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  project1_network:
+    driver: bridge
