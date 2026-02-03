@@ -17,3 +17,6 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+data/models/
+*.pth
+docs/sample_forensics_train.png
