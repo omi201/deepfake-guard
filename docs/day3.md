@@ -8,12 +8,6 @@
 - Verified pipeline with 50 sample faces from 140k dataset
 - Output: 224x224 face crops ready for Meso4/EfficientNet
 
-## Technical Details
-- Library: facenet-pytorch (MTCNN)
-- Confidence threshold: 0.95
-- Single-process (avoided CUDA reinit fork error)
-- Target: 50,000 faces pending Celeb-DF download
-
 ## Files Created
 - backend/app/ml/preprocessing/extract_faces_mtcnn.py
 - backend/app/ml/preprocessing/generate_test_videos.py  
