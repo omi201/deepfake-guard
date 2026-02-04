@@ -1,22 +1,37 @@
-# Data and models (too large for git)
-data/raw/*.zip
-data/raw/**/*.jpg
-data/raw/**/*.png
+# Data files
+data/raw/
 data/processed/
-models/*.pth
-models/*.onnx
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.tar.gz
+*.zip
 
-# Python cache
+# Models (large files)
+data/models/*.pth
+
+# Python
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
-data/models/
-*.pth
-docs/sample_forensics_train.png
+
+# Logs
+*.log
