@@ -59,6 +59,7 @@ python -c "import torch; m=torch.load('data/models/efficientnet_b3_final.pth'); 
 
 
 ## 📁 Repository Structure
+```text
 deepfake-guard/
 ├── backend/
 │   └── app/
@@ -90,11 +91,13 @@ deepfake-guard/
 │   │   └── celeb-df/faces/                     ✅ 61k faces
 │   └── raw/
 │       └── celeb-df/videos/                    ✅ Source
-├── frontend/                                   🔄 Days 22-28
 ├── docs/
 │   └── day5.md                                 ✅ Day 5
+├── frontend/                                   🔄 Days 22-28
 ├── docker-compose.yml                          ✅ Day 1
+├── requirements.txt                            ✅ Python deps
 └── README.md                                   ✅ This file
+
 
 ## 💰 Budget Tracking
 
