@@ -97,7 +97,9 @@ deepfake-guard/
 ├── docker-compose.yml                          ✅ Day 1
 ├── requirements.txt                            ✅ Python deps
 └── README.md                                   ✅ This file
-```text
+
+```   
+
 
 ## 💰 Budget Tracking
 
