@@ -49,7 +49,7 @@
 
 ## 🚀 Quick Start
 
-```bash
+
 # Activate environment
 conda activate deepfake-guard
 export LD_LIBRARY_PATH=/home/saumya/yes/lib:$LD_LIBRARY_PATH
@@ -120,5 +120,5 @@ Objective: Implement Albumentations-based data augmentation
 Augmentations: JPEG compression, Gaussian noise, blur, rotation
 Target File: backend/app/ml/preprocessing/augmentation.py
 
-```bash
+
 
