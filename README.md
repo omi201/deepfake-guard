@@ -127,3 +127,16 @@ Target File: backend/app/ml/preprocessing/augmentation.py
 
 
 
+
+## Day 7 Update (Complete)
+- **Ensemble V1:** Meso4 (90.55%) + EfficientNet-B3 (99.92%)
+- **Result:** 99.93% accuracy (Target: 92%) ✅
+- **Method:** Simple late fusion (average probabilities)
+- **Model:** `data/models/ensemble_v1.pth` (13M parameters)
+
+### Model Zoo
+| Model | Accuracy | Params | Status |
+|-------|----------|--------|--------|
+| Meso4 Baseline | 91.19% | 1.6M | ✅ Day 7 (corrected) |
+| EfficientNet-B3 | 99.71% | 11.5M | ✅ Day 5 |
+| **Ensemble V1** | **99.93%** | **13.1M** | ✅ **Day 7** |
