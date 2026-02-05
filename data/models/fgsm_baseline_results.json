@@ -1,0 +1,21 @@
+{
+  "clean_accuracy": 0.7900000214576721,
+  "attacks": {
+    "eps_0.01": {
+      "robust_accuracy": 0.0979999303817749,
+      "attack_success_rate": 0.9020000696182251
+    },
+    "eps_0.03": {
+      "robust_accuracy": 0.02199995517730713,
+      "attack_success_rate": 0.9780000448226929
+    },
+    "eps_0.05": {
+      "robust_accuracy": 0.01399993896484375,
+      "attack_success_rate": 0.9860000610351562
+    },
+    "eps_0.1": {
+      "robust_accuracy": 0.01399993896484375,
+      "attack_success_rate": 0.9860000610351562
+    }
+  }
+}

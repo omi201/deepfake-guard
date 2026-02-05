@@ -1,0 +1,12 @@
+{
+  "attack_type": "PGD",
+  "parameters": {
+    "steps": 40,
+    "epsilon": 0.03,
+    "rel_stepsize": 0.25
+  },
+  "clean_accuracy": 0.7999999523162842,
+  "pgd_robust_accuracy": 0.0,
+  "attack_success_rate": 1.0,
+  "vulnerability_severity": "CRITICAL"
+}
